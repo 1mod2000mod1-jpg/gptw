@@ -1,11 +1,11 @@
 services:
   - type: web
-    name: telegram-bot-final
+    name: telegram-bot-working
     env: python
     plan: free
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: python bot.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         sync: false

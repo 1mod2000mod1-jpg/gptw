@@ -1,4 +1,4 @@
 # حزم أساسية فقط - مضمونة العمل
-python-telegram-bot==20.7
+python-telegram-bot==13.7
 requests==2.31.0
 psutil==5.9.5

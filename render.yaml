@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-bot-basic
+    name: telegram-bot-final
     env: python
     plan: free
     branch: main
@@ -9,5 +9,3 @@ services:
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         sync: false
-      - key: PYTHON_VERSION
-        value: 3.10.12

@@ -1,8 +1,8 @@
-# إصدارات مستقرة ومتوافقة مع Render
-python-telegram-bot==13.7  # إصدار أقدم وأكثر استقراراً
+# إصدارات مضمونة العمل على Render
+python-telegram-bot==13.7
 requests==2.31.0
 psutil==5.9.5
 PyYAML==6.0
 beautifulsoup4==4.12.2
 python-dotenv==1.0.0
-aiohttp==3.8.4
+duckduckgo-search==3.8.5

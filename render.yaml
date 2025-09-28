@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: telegram-bot-guaranteed
+    name: telegram-bot-basic
     env: python
     plan: free
     branch: main
-    buildCommand: pip install -r requirements-guaranteed.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python app.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
